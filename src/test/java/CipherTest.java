@@ -9,4 +9,11 @@ public class CipherTest {
         String expectedOutput = "w";
         assertEquals(expectedOutput, testCipher.encrypt("t", 3));
     }
+
+    @Test
+    public void Cipher_changePositionOfText_String() {
+        Cipher testCipher = new Cipher();
+        String expectedOutput = "urfn";
+        assertEquals(expectedOutput, testCipher.encrypt("rock", 3));
+    }
 }
