@@ -9,4 +9,10 @@ public class DecipherTest {
         String expectedOutput = "t";
         assertEquals(expectedOutput, testDecipher.decrypt("w", 3));
     }
+    @Test
+    public void Decipher_changePositionOfText_String() {
+        Decipher testDecipher = new Decipher();
+        String expectedOutput = "rock";
+        assertEquals(expectedOutput, testDecipher.decrypt("urfn", 3));
+    }
 }
