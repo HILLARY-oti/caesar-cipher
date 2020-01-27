@@ -1,0 +1,12 @@
+import org.junit.*;
+import static org.junit.Assert.*;
+
+public class DecipherTest {
+
+    @Test
+    public void Decipher_changePositionOfLetter_String() {
+        Decipher testDecipher = new Decipher();
+        String expectedOutput = "t";
+        assertEquals(expectedOutput, testDecipher.decrypt("w", 3));
+    }
+}
