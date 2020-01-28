@@ -6,6 +6,8 @@ Hillary Otieno
 Java
 ## Description of the project
 This is an encoding and decoding message app.
+## Code beat
+[![codebeat badge](https://codebeat.co/badges/73ba78aa-948e-497d-b58d-310145db7951)](https://codebeat.co/projects/github-com-hillary-oti-caesar-cipher-master)
 ### License & copyright
 MIT License
 
