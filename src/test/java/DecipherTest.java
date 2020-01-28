@@ -15,4 +15,10 @@ public class DecipherTest {
         String expectedOutput = "rock";
         assertEquals(expectedOutput, testDecipher.decrypt("urfn", 3));
     }
+//    @Test
+//    public void Cipher_changePositionOfSentence_String() {
+//        Decipher testDecipher = new Decipher();
+//        String expectedOutput = "me you";
+//        assertEquals(expectedOutput, testDecipher.decrypt("og aqw", 2));
+//    }
 }
