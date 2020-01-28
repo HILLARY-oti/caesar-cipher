@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DecipherTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-27T14:05:20" hostname="hillary-lenovo-v130-15igm" time="0.029">
-  <properties/>
-  <testcase name="Decipher_changePositionOfText_String" classname="DecipherTest" time="0.029"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
