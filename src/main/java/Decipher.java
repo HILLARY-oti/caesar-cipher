@@ -5,10 +5,21 @@ public class Decipher {
         String decipheredText = "";
 
         for(int i = 0; i < text.length(); i++){
-            int indexOfChar = letters.indexOf(text.charAt(i));
-            int position = (indexOfChar - key) % 26;
-            char shiftCharacter = letters.charAt(position);
-            decipheredText += shiftCharacter;
+
+            if (Character.isLetter(text.charAt(i))) {
+
+                int indexOfChar = letters.indexOf(text.charAt(i));
+                int position = (indexOfChar - key) % 26;
+
+                if (position < 0) {
+                    position = letters.charAt(i);
+                }
+                char shiftCharacter = letters.charAt(position);
+                decipheredText += shiftCharacter;
+
+            }else {
+                decipheredText+= text.charAt(i);
+            }
         }
         return decipheredText;
     }
